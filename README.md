@@ -15,6 +15,7 @@ Skills are organized under `skills/<skill-name>/` and typically include:
 | `ruby-on-rails-best-practices` | Self-developed | Ruby on Rails architecture and coding patterns inspired by Basecamp-style conventions. Useful when writing, reviewing, or refactoring Rails models, controllers, jobs, concerns, and Turbo/Hotwire features. | `skills/ruby-on-rails-best-practices/SKILL.md` |
 | `coding-standards` | Forked & customized from [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Universal coding standards: naming, immutability, error handling, async patterns, API design, and testing. Code examples use TypeScript/JavaScript but the principles apply to any stack. | `skills/coding-standards/SKILL.md` |
 | `backend-patterns` | Forked & customized from [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Backend architecture patterns: repository/service layers, N+1 prevention, caching, rate limiting, auth, background jobs, and structured logging. Code examples use TypeScript/Node.js but the patterns are language-agnostic. | `skills/backend-patterns/SKILL.md` |
+| `ephemeral-e2e-tests` | Self-developed | How to write, run and prove Playwright E2E specs against the persistent `e2e` ephemeral environment behind the manually-triggered E2E release gate (SWWB-24455). Spans `ShareWis/wisdombase-playwright-tests` (the spec) and `ShareWis/sharewis-act` (the fixture seeder). | `skills/ephemeral-e2e-tests/SKILL.md` |
 
 ## Repository Structure
 
@@ -31,6 +32,9 @@ sharewis-agent-skills/
       SKILL.md
     backend-patterns/
       SKILL.md
+    ephemeral-e2e-tests/
+      SKILL.md
+      rules/
 ```
 
 ## Purpose
